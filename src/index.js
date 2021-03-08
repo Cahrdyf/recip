@@ -14,7 +14,7 @@ function App() {
 	  <Card 
 	    img="cookiebread.png"
 		title="Cookie Bread"
-		desc="Grandma Curtis-Anne used to make this all the time when was kids. It was whole wheat bread with cookies in it. RIP Grandma. If you dead, that is"
+		desc="Grandma Curtis-Anne used to make this all the time when was kids. It was whole wheat bread with cookies in it. RIP Grandma. If you dead, that is."
 	  />
 	  
 	   <Card 
@@ -35,7 +35,7 @@ function Card(props){
 		<h2 className="card-title">{props.title}</h2>
 		<p className="card-description">{props.desc}</p>
 	  </div>
-	  <button className="card-button">View Recipes</button>
+	  <button className="card-button">View Recipe</button>
 	</div>
   );
 }
